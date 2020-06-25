@@ -10,7 +10,9 @@
     "react-dom": "^16.13.1"
   },
   "scripts": {
-    "dev": "gatsby develop"
+    "dev": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
   },
   "devDependencies": {
     "typescript": "^3.9.5"

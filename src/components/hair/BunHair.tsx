@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { useTheme } from '../../themeContext'
 import { HairProps } from './types'
 
