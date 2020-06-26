@@ -8,13 +8,13 @@ const Home = () => {
   //   setInterval(() => forceUpdate(yes => !yes), 3000)
   // }, [])
 
-  const [loading, setLoading] = useState(true)
+  // const [loading, setLoading] = useState(true)
 
-  useEffect(() => {
-    setTimeout(() => setLoading(false), 0)
-  }, [])
+  // useEffect(() => {
+  //   setTimeout(() => setLoading(false), 0)
+  // }, [])
 
-  if (loading) return 'Loading...'
+  // if (loading) return 'Loading...'
 
   return (
     <div
