@@ -1,20 +1,8 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { Avatar } from '../components/Avatar'
 
 const Home = () => {
-  // const [_, forceUpdate] = useState(true)
-
-  // useEffect(() => {
-  //   setInterval(() => forceUpdate(yes => !yes), 3000)
-  // }, [])
-
-  // const [loading, setLoading] = useState(true)
-
-  // useEffect(() => {
-  //   setTimeout(() => setLoading(false), 0)
-  // }, [])
-
-  // if (loading) return 'Loading...'
+  if (typeof window === 'undefined') return 'Loading...'
 
   return (
     <div
